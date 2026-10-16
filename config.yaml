@@ -1,0 +1,13 @@
+seed: 42
+data:
+  n_samples: 1500
+  sample_path: data/diabetes_sample.csv
+  test_size: 0.25
+model:
+  cv_folds: 5
+  target_recall: 0.85
+  calibration_method: sigmoid
+paths:
+  figures: reports/figures
+  metrics: reports/metrics.json
+  model: models/diabetes_model.joblib
